@@ -1,4 +1,4 @@
-var promise = () => {
+/*var promise = () => {
     return new Promise((resolve, reject) => {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'https://api.github.com/users/ricardomarino');
@@ -14,8 +14,8 @@ var promise = () => {
             }
         }
     });
-}
+}*/
 
-promise()
+axios.get('https://api.github.com/users/ricardomarino')
     .then((response) => console.log(response))
     .catch((error) => console.error(error))
