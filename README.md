@@ -1,2 +1,2 @@
 # promises
-Estudo
+Estudo do comportamento assíncrono
